@@ -64,6 +64,23 @@ This guide describes how to set up this Moodle repository for local development.
 
 ## Running the Development Server
 
+### Quick Start
+
+We have provided a script to start all necessary services for you.
+
+```bash
+./start_dev.sh
+```
+
+This will:
+1.  Install frontend dependencies if missing.
+2.  Start the Grunt watcher (for CSS/JS changes).
+3.  Start the PHP web server at [http://localhost:8000](http://localhost:8000).
+
+### Manual Start
+
+If you prefer to run commands manually:
+
 1.  **Start Frontend Watcher**
     This will watch for changes in SCSS and JS files and recompile them.
     ```bash
