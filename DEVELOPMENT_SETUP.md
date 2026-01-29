@@ -78,3 +78,12 @@ This guide describes how to set up this Moodle repository for local development.
 
 3.  **Access the Site**
     Open [http://localhost:8000](http://localhost:8000) in your browser.
+
+## Default Credentials
+
+If you used the installation command above, your credentials are:
+
+*   **Admin Username:** `admin` (default)
+*   **Admin Password:** `Admin123!`
+*   **Database User:** `moodle`
+*   **Database Password:** `moodle`
