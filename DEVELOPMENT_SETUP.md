@@ -26,7 +26,7 @@ This guide describes how to set up this Moodle repository for local development.
     Use the CLI installer to configure Moodle and the database. Adjust the parameters as needed.
     ```bash
     php admin/cli/install.php \
-    --wwwroot="http://localhost:8000" \
+    --wwwroot="http://localhost:3000" \
     --dataroot="$(pwd)/moodledata" \
     --dbtype="mariadb" \
     --dbhost="localhost" \
@@ -75,7 +75,7 @@ We have provided a script to start all necessary services for you.
 This will:
 1.  Install frontend dependencies if missing.
 2.  Start the Grunt watcher (for CSS/JS changes).
-3.  Start the PHP web server at [http://localhost:8000](http://localhost:8000).
+3.  Start the PHP web server at [http://localhost:3000](http://localhost:3000).
 
 ### Manual Start
 
@@ -90,11 +90,11 @@ If you prefer to run commands manually:
 2.  **Start Web Server**
     Start the PHP built-in server pointing to the `public` directory.
     ```bash
-    php -S 0.0.0.0:8000 -t public
+    php -S 0.0.0.0:3000 -t public
     ```
 
 3.  **Access the Site**
-    Open [http://localhost:8000](http://localhost:8000) in your browser.
+    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Default Credentials
 

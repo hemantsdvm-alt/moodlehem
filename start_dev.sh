@@ -43,7 +43,7 @@ GRUNT_PID=$!
 echo "Grunt running (PID: $GRUNT_PID). Logs in grunt.log"
 
 echo "Starting PHP Development Server..."
-echo "Access the site at http://localhost:8000"
+echo "Access the site at http://localhost:3000"
 echo "Press Ctrl+C to stop."
 
-php -S 0.0.0.0:8000 -t public
+php -S 0.0.0.0:3000 -t public
